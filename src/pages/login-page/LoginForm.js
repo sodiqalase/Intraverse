@@ -10,7 +10,7 @@ function LoginForm() {
   }
   const onsubmit = async (e) => {
     e.preventDefault()
-    console.log(fields)
+    
     const url = 'https://staging.odio.com.ng/v1/login'
     if (email && password){
       try {
@@ -23,7 +23,7 @@ function LoginForm() {
           'Content-Type': 'application/json'},
         body: JSON.stringify(data)});
         let pro = await res.json();
-        console.log(pro)
+        
         if (pro.message !== 'Successful'){
           setFields({...fields, failed: true})
           setTimeout(() => {
@@ -35,7 +35,7 @@ function LoginForm() {
         }
         
       } catch (e) {
-        console.log(e)
+        
         setFields({...fields, failed: true})
       }
     } else {

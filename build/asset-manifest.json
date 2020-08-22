@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71fea3b7.chunk.css",
+    "main.js": "/static/js/main.8385a95a.chunk.js",
+    "main.js.map": "/static/js/main.8385a95a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2b220889.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2b220889.js.map",
+    "static/css/2.bf0413c3.chunk.css": "/static/css/2.bf0413c3.chunk.css",
+    "static/js/2.14de42e1.chunk.js": "/static/js/2.14de42e1.chunk.js",
+    "static/js/2.14de42e1.chunk.js.map": "/static/js/2.14de42e1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cc23b9c0ba0b83be066eee94c9c63739.js": "/precache-manifest.cc23b9c0ba0b83be066eee94c9c63739.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.bf0413c3.chunk.css.map": "/static/css/2.bf0413c3.chunk.css.map",
+    "static/css/main.71fea3b7.chunk.css.map": "/static/css/main.71fea3b7.chunk.css.map",
+    "static/js/2.14de42e1.chunk.js.LICENSE.txt": "/static/js/2.14de42e1.chunk.js.LICENSE.txt",
+    "static/media/Air Conditioner.H03.2k.png": "/static/media/Air Conditioner.H03.2k.97774154.png",
+    "static/media/Dryer.H03.2k.png": "/static/media/Dryer.H03.2k.0078cec0.png",
+    "static/media/Laptop Computer.H03.2k.png": "/static/media/Laptop Computer.H03.2k.410a2f4b.png",
+    "static/media/ODIO-LADY.png": "/static/media/ODIO-LADY.9213b8fc.png",
+    "static/media/Portable Generator.H03.2k.png": "/static/media/Portable Generator.H03.2k.d0be49bc.png",
+    "static/media/Video Game Console.H03.2k@2x.png": "/static/media/Video Game Console.H03.2k@2x.ffcd2b00.png",
+    "static/media/iPhone XS.H03.2k.png": "/static/media/iPhone XS.H03.2k.7a97d3da.png",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/tick.svg": "/static/media/tick.c4ed7107.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b220889.js",
+    "static/css/2.bf0413c3.chunk.css",
+    "static/js/2.14de42e1.chunk.js",
+    "static/css/main.71fea3b7.chunk.css",
+    "static/js/main.8385a95a.chunk.js"
+  ]
+}

@@ -38,7 +38,7 @@ function RegisterForm({history}) {
           history.push("/login")}, 2000)
         
       } catch (e) {
-        console.log(e)
+        
       }
     } else {
       setFields({...fields, failed: true})
