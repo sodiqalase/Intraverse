@@ -1,0 +1,540 @@
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+*::before,
+*::after 
+  box-sizing: inherit
+
+html, body 
+  font-family:  "Helvetica Neue", sans-serif 
+  line-height: 1.5
+
+li, ul, ol
+  list-style: none
+
+a
+  text-decoration: none
+  color: inherit
+
+table 
+  border-collapse: collapse
+
+
+code,
+kbd,
+samp 
+  font-family: monospace, monospace
+  font-size: 1em
+
+abbr[title] 
+  border-bottom: none
+  text-decoration: underline
+  -webkit-text-decoration: underline dotted
+          text-decoration: underline dotted
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] 
+  -webkit-appearance: button
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inne
+  border-style: none
+  padding: 0
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring 
+  outline: 1px dotted ButtonText
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button 
+  height: auto
+
+::-webkit-file-upload-button                
+  -webkit-appearance: button  
+  font: inherit
+
+[type="search"]::-webkit-search-decoration 
+  -webkit-appearance: none
+
+[type="search"]::-webkit-search-decoration 
+  -webkit-appearance: none
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder 
+  color: #a0aec0
+
+input::-moz-placeholder, textarea::-moz-placeholder 
+  color: #a0aec0
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder 
+  color: #a0aec0
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder 
+  color: #a0aec0
+
+input::placeholder, textarea::placeholder 
+  color: #a0aec0
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object 
+  display: block
+  vertical-align: middle
+
+.landing-page-background
+  background: #C5FFF0 
+  
+
+
+.navigation
+  padding: 25px 30px
+  display: flex
+  justify-content: space-between
+  .navigation-right
+    outline: none
+    color: #1E40C8
+    font-weight: bold
+  .navigation-left
+    padding: 8px 
+    text-align: center
+    width: 124px
+    background: #1E40C8
+    outline: none
+    font-size: 16px
+    color: #fff
+    border: none
+    border-radius: 24px
+
+// .slider-wrapper
+//   overflow-x: hidden
+//   height: 450px
+//   .slider-overflow 
+//     width: 500vw
+//     display: flex
+//     transform: translateX(0vw)
+    
+//     flex-wrap: nowrap
+//     // overflow: scroll
+.slider-item
+  
+  height: 100%
+  width: 100vw
+ 
+  img
+    width: 601px
+    position: relative
+    // left: 50% !important
+    margin: 0 auto
+
+.landing-texts
+  display: flex
+  font-family: Helvetica, sans-serif
+  flex-direction: column
+  align-items: center
+  h5
+    color: #707070
+    
+    font-size: 24px
+    margin-bottom: 10px
+  h2
+    color: #091740
+    font-weight: bold
+    font-size: 48px
+    margin-bottom: -10px
+  h3
+    color: #091740
+    font-size: 48px
+    font-weight: normal
+    margin-bottom: 31px
+  p
+    font-size: 18px
+    color: #091740
+    margin-bottom: 31px
+  a
+    outline: none
+    text-align: center
+    padding: 10px 
+    width: 361px
+    border: none
+    border-radius: 24px
+    color: #fff
+    box-shadow: 0px 16px 48px #050E35
+    background: #1E40C8
+    margin-bottom: 50px
+
+.section-b
+  
+  background: #fff
+  padding-top: 30px
+  padding-bottom: 100px
+  .section-b-container  
+    width: 80%
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    align-items: center
+    .heading
+      font-size: 36px
+      color: #091740
+    .flex-list
+      margin-top: 80px
+      display: flex
+      justify-content: space-between
+     
+      .flex-item
+        padding: 15px
+        border-radius: 10px
+        display: flex
+        flex-direction: column
+        align-items: center
+        flex-basis: 30%
+        &:hover
+          box-shadow: 15px 15px 15px rgba(0,0,0,.09)
+        img
+          width: 35px
+          margin-bottom: 30px
+        h5
+          color: #091740
+          font-weight: bold
+          margin-bottom: 30px
+          font-size: 22px
+        p
+          font-size: 18px
+          color: #091740
+
+
+
+.section-c
+  padding-top: 40px
+  display: flex
+  flex-direction: column
+  align-items: center
+  div
+    text-align: center
+    max-width: 803px
+    margin-bottom: 30px
+    h3
+      font-size: 48px
+      color: #091740
+      margin-bottom: 30px
+    p
+      font-size: 18px
+      color: #091740
+  button
+    margin-top: 10px
+    cursor: pointer
+    outline: none
+    padding: 15px 
+    width: 361px
+    border: none
+    border-radius: 24px
+    color: #fff
+    box-shadow: 0px 16px 48px #050E35
+    background: #1E40C8
+    margin-bottom: 30px
+
+.section-d
+  background: #ffffff
+  padding: 50px 0 20px 0
+  display: flex
+  flex-direction: column
+  align-items: center
+  h5
+    font-size: 30px
+    color: #091740
+    margin-bottom: 60px
+  div
+    margin-bottom: 25px
+    max-width: 960px
+    h6
+      font-size: 20px
+      color: #091740
+    p
+      font-size: 20px
+      color: #707070
+
+.section-e
+  
+  position: relative
+  padding: 50px 0 50px 0
+  background: transparent radial-gradient(closest-side at 50% 0%, #0A1F62 0%, #061648 100%, #061648 100%) 0% 0% no-repeat padding-box
+  display: flex
+  flex-direction: column
+  align-items: center
+  color: #ffffff
+  .circle1,.circle2
+    position: absolute
+    bottom: 228px
+    border: none
+    background: #1E40C8
+    right: 100px
+    z-index: 4
+    height: 25px
+    width: 25px
+    border-radius: 100%
+  .circle2
+    right: 180px
+    background: #B4BFCE
+
+  p
+    font-size: 14px
+    color: #748394
+  h3
+    font-size: 36px
+    margin-bottom: 50px
+  .section-e-card
+    width: 996px
+    margin-bottom: 70px
+    
+    span
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 50px
+      height: 50px
+      border-radius: 100%
+      border: 1px solid #30D1FF
+      color: #30D1FF
+      margin-bottom: 20px
+    p
+      color: #ffffff
+      margin-bottom: 20px
+    div
+      border-radius: 10px
+      width: 762px
+      background: #F0F5FC
+      display: flex
+      justify-content: space-between
+      .right
+        img
+          margin-left: 20px
+          height: 127px
+      .left
+        display: inline-block
+        width: 131px
+        font-size: 14px
+        align-self: center
+        padding: 8px 0
+        background: #1E40C8
+        outline: none
+        margin-right: 50px
+        box-shadow: 0px 16px 48px #050E35
+        color: #fff
+        border: none
+        border-radius: 24px
+    .second
+      background: #fff
+      width: 654px
+      height: 292px
+      div
+        height: 80%
+        margin: auto auto
+    .third
+      width: 595px
+      height: 202px
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      img
+        &:first-child
+          height: 238px
+          margin-left: 40px
+        &:nth-child(2)
+          height: 86.25px
+          
+          
+.section-f
+  padding-top: 80px
+  background: #F6F9FD
+  display: flex
+  flex-direction: column
+  align-items: center
+  .flex-wrapper
+    box-shadow: 15px 15px 15px rgba(0,0,0,.09)
+    
+    display: flex
+    width: 1178px
+    height: 428px
+    div
+      
+      border-radius: 10px
+      height: 100%
+      background: #fff
+      display: flex
+      justify-content: center
+      align-items: flex-start
+      flex-direction: column
+      margin: auto
+      &:nth-child(2)
+        background: #C5FFF0
+        
+      .inner
+        width: 70%
+        background: none
+        h3
+          margin-bottom: 30px
+        p
+          margin-bottom: 50px
+        a
+          color: #1E40C8
+  h4
+    color: #091740
+    margin-top: 70px
+    margin-bottom: 10px
+  button
+    margin-top: 10px
+    cursor: pointer
+    outline: none
+    padding: 15px 60px
+    border: none
+    border-radius: 24px
+    color: #fff
+    box-shadow: 0px 16px 48px #050E35
+    background: #1E40C8
+    margin-bottom: 120px
+    width: 361px
+
+// Styling for the Registration Page and components
+
+.register
+  height: 100vh
+  overflow-x: hidden
+  width: 100vw
+  .register-wrapper
+    overflow-x: hidden
+    
+    height: 994px
+    margin: 0 auto
+    display: flex
+    width: auto
+    .left
+
+      // overflow: hidden
+      flex-basis: 682px
+      // background: url('./pages/register-page/ODIO-LADY.png')
+      img
+        width: 100%
+        margin-left: auto
+    .right
+           
+      flex-basis: 682px
+      padding-top: 50px
+      padding: 50px 70px 0 70px
+      h3
+        font-size: 30px
+        color: #090E18
+        font-weight: bold
+        margin-bottom: 50px
+      p
+        font-size: 24px
+        color: #4CE797
+        margin-bottom: 10px
+      .register-form
+        display: flex
+        flex-direction: column
+        align-items: center
+        input
+          width: 100%
+          height: 61px
+          border: 2px solid #015FCC
+          outline: none
+          margin-bottom: 15px
+          border-radius: 8px
+          padding: 3px 10px
+        .note
+          font-size: 14px
+          
+        button
+          
+          display: inline-block
+          width: 235px
+          color: #ffffff
+          font-weight: bold
+          border: none
+          outline: none
+          border-radius: 5px
+         
+          margin: 0 auto
+          background: #223564
+          padding: 15px 0
+          margin-top: 20px
+      .small
+        font-size: 20px
+        margin-top: 45px
+        color: #707070
+
+
+.login
+  background: #F7F8FA
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  .login-wrapper
+    width: 500px
+    
+    div
+      display: inline-block
+      padding: 10px 30px
+      background: #223564
+      color: #fff
+      font-size: 24px
+    .login-form
+      
+      box-shadow: 3px 3px 10px #707070
+      background: #ffffff
+      padding: 50px
+      padding-bottom: 80px
+      border-top: 2px solid #223564
+      .note
+        font-size: 18px
+        color: #4CE797
+      p
+        text-align: center
+        margin-bottom: 30px
+        font-size: 21px
+        color: #000000
+      .form-group
+        margin-bottom: 20px
+        background: none
+        color: #707070
+        display: block
+        padding: 0
+        label
+          display: block
+          margin-bottom: 5px
+          font-size: 16px
+          
+        input
+          color: #707070
+          font-size: 20px
+          border-radius: 4px
+          outline: none
+          height: 55px
+          padding: 0 30px
+          width: 100%
+          border: 1px solid #E4E4E4
+    button
+      font-size: 25px
+      width: 100%
+      height: 61px
+      border: none
+      outline: none
+      background: #223564
+      color: white
+      margin-top: 20px
+      border-radius: 4px
