@@ -671,6 +671,12 @@ object {
 }
 
 @media screen and (max-width: 768px) {
+  .navigation {
+    padding: 25px 15px;
+  }
+  .navigation .navigation-right svg {
+    width: 130px;
+  }
   .slider-item img {
     height: auto;
     width: 80%;
@@ -711,6 +717,12 @@ object {
   }
   .section-e .section-e-card div {
     width: 100%;
+  }
+  .section-e .section-e-card div .right img {
+    margin-left: 10px;
+  }
+  .section-e .section-e-card div .left {
+    margin-right: 10px;
   }
   .section-e .section-e-card .second {
     width: 100%;
