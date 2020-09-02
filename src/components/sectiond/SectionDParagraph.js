@@ -1,10 +1,11 @@
 import React from 'react'
 
-function SectionDParagraph({title, text}) {
+function SectionDParagraph({text}) {
+  const { title, body } = text
   return (
     <div className="section-d-paragraph">
       <h6>{title}</h6>
-      <p>{text}</p>
+      <p>{body}</p>
     </div>
   )
 }

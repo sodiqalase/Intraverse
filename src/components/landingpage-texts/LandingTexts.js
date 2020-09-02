@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 function LandingTexts() {
   return (
     <section className="landing-texts">
-      <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h5>
-      <h2>Lorem ipsum dolor sit amet, consectetur</h2>
-      <h3>Lorem ipsum now</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod <br/> tempor invidunt ut labore et dolore magna aiquyam erat, sed diam voluptua.</p>
-      <Link to="/register">Register now</Link>
+      <h5>This september, the way you make payment is going to change</h5>
+      <h2>Let's help you pay for the things you need now</h2>
+      <h3>While you pay back later</h3>
+      <p>Odio offers you the freedom to pay for the things you need by advancing payments to the merchants while you pay back in bits</p>
+      <Link to="/register">Sign up to pay with Odio</Link>
 
 
     </section>

@@ -1,13 +1,14 @@
 import React from 'react'
 import SectionCText from './SectionCText'
-
+import { content } from './content'
 function SectionC() {
+  const {a,b} = content;
   return (
     <section className="section-c">
-      <SectionCText title="Problem" />
-      <SectionCText title="Solution" />
+      <SectionCText text={a}/>
+      <SectionCText text={b} />
       
-      <button>Lorem ipsum now</button>
+      <button>Register to use Odiopay</button>
     </section>
   )
 }

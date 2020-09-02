@@ -16,6 +16,7 @@ import img6 from './Laptop Computer.H03.2k.png'
 class SliderWrapper extends React.Component {
   render(){
     let settings = {
+      arrows: false,
       autoplay: true,
       fade: true,
       infinite: true,
